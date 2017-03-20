@@ -55,5 +55,23 @@ ALPHA_TO_NUM = {
     'Z': 25
 }
 
-def encrypt_caeser(msg,k):
-    pass
+def encrypt_caeser(plain_text,k):
+    """
+
+    :param msg: a well formed string that only contains CAPITAL LETTERS in the ALPHABET A-Z
+    :param k: secret key which will indicate how many spots to shift msg by
+    :return: encrypted msg
+    """
+    cipher_text = ''
+
+    return cipher_text
+
+def decrypt_caeser(cipher_text,k):
+    """
+    :param cipher_text: a well formed string that only contains CAPITAL LETTERS in the ALPHABET A-Z
+    :param k: secret key which will indicate how many spots to reverse-shift msg by
+    :return: plaintext of encrypted message
+    """
+    plain_text = ''
+
+    return plain_text
