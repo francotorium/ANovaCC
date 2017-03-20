@@ -57,6 +57,7 @@ ALPHA_TO_NUM = {
 
 def encrypt_caeser(plain_text,k):
     """
+    hint: will need mod if k goes over 25
 
     :param msg: a well formed string that only contains CAPITAL LETTERS in the ALPHABET A-Z
     :param k: secret key which will indicate how many spots to shift msg by
@@ -68,6 +69,7 @@ def encrypt_caeser(plain_text,k):
 
 def decrypt_caeser(cipher_text,k):
     """
+    hint: will need mod if k goes over 25
     :param cipher_text: a well formed string that only contains CAPITAL LETTERS in the ALPHABET A-Z
     :param k: secret key which will indicate how many spots to reverse-shift msg by
     :return: plaintext of encrypted message
